@@ -17,6 +17,9 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'UberClone',
+      theme: ThemeData(
+        fontFamily: 'NimbusSans'
+      ),
       initialRoute: 'home',
       routes: {
         'home': (BuildContext context) => HomePage(),
