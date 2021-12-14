@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:uber_clone_flutter/pages/home/home_page.dart';
+import 'package:uber_clone_flutter/pages/login/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,6 +24,7 @@ class _MyAppState extends State<MyApp> {
       initialRoute: 'home',
       routes: {
         'home': (BuildContext context) => HomePage(),
+        'login': (BuildContext context) => LoginPage(),
       }
     );
   }
